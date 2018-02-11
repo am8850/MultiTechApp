@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "Src\WebApp\WebApp.csproj", "{0BC2C22C-AE6F-469B-ADC6-3570E2577925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3AAC9DD-FC2E-4C0A-892A-29B8645FE478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{897A6363-F1DC-4B95-9579-3D1D2DA6304A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{1E9C395A-A62B-4436-9647-5AC71559F9A8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{21672DC8-DA0B-48D2-A204-469773D94783}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonService", "Src\PythonService\PythonService.pyproj", "{ADA826B9-B185-4799-B213-93AA944C29DB}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodeService", "Src\NodeService\NodeService.njsproj", "{AE8F7BBF-7967-4ECA-81A7-AD3870DF1A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCoreService", "Src\DotnetCoreService\DotnetCoreService.csproj", "{94739E31-C74E-4662-A0B1-9A1BB57394B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC2C22C-AE6F-469B-ADC6-3570E2577925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC2C22C-AE6F-469B-ADC6-3570E2577925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC2C22C-AE6F-469B-ADC6-3570E2577925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC2C22C-AE6F-469B-ADC6-3570E2577925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA826B9-B185-4799-B213-93AA944C29DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA826B9-B185-4799-B213-93AA944C29DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA826B9-B185-4799-B213-93AA944C29DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA826B9-B185-4799-B213-93AA944C29DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8F7BBF-7967-4ECA-81A7-AD3870DF1A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8F7BBF-7967-4ECA-81A7-AD3870DF1A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8F7BBF-7967-4ECA-81A7-AD3870DF1A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8F7BBF-7967-4ECA-81A7-AD3870DF1A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94739E31-C74E-4662-A0B1-9A1BB57394B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94739E31-C74E-4662-A0B1-9A1BB57394B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94739E31-C74E-4662-A0B1-9A1BB57394B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94739E31-C74E-4662-A0B1-9A1BB57394B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BC2C22C-AE6F-469B-ADC6-3570E2577925} = {D3AAC9DD-FC2E-4C0A-892A-29B8645FE478}
+		{1E9C395A-A62B-4436-9647-5AC71559F9A8} = {897A6363-F1DC-4B95-9579-3D1D2DA6304A}
+		{21672DC8-DA0B-48D2-A204-469773D94783} = {D3AAC9DD-FC2E-4C0A-892A-29B8645FE478}
+		{ADA826B9-B185-4799-B213-93AA944C29DB} = {21672DC8-DA0B-48D2-A204-469773D94783}
+		{AE8F7BBF-7967-4ECA-81A7-AD3870DF1A72} = {21672DC8-DA0B-48D2-A204-469773D94783}
+		{94739E31-C74E-4662-A0B1-9A1BB57394B7} = {21672DC8-DA0B-48D2-A204-469773D94783}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D04AEC92-93B2-49FC-BD4B-D70EF1B1F7A3}
+	EndGlobalSection
+EndGlobal
